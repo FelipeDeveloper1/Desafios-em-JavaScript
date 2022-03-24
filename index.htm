@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <p id='titulo'> calc </p>
+    <div id='calculadora'>
+        <div id='box'>
+            <p id='numeros'>0,00</p>
+        </div>
+        <br>
+        <div id='box1'>
+            <div id='primeira_linha'>
+                <button onclick="sete()" id='sete'>7</button>
+                <button onclick="oito()" id='oito'>8</button>
+                <button onclick="nove()" id='nove'>9</button>
+                <button onclick="del()" id='del'>DEL</button>
+            </div>
+            <div id='segunda_linha'>
+                <button onclick="quatro()" id='quatro'>4</button>
+                <button onclick="cinco()" id='cinco'>5</button>
+                <button onclick="seis()" id='seis'>6</button>
+                <button onclick="mais()" id='mais'>+</button>
+            </div>
+            <div id='terceira_linha'>
+                <button onclick="um()" id='um'>1</button>
+                <button onclick="dois()" id='dois'>2</button>
+                <button onclick="tres()" id='tres'>3</button>
+                <button onclick="menos()" id='menos'>-</button>
+            </div>
+            <div id='quarta_linha'>
+                <button onclick="ponto()" id='ponto'>.</button>
+                <button onclick="zero()" id='zero'>0</button>
+                <button onclick="divi()" id='divisao'>/</button>
+                <button onclick="multi()" id='multi'>X</button>
+            </div>
+            <div id='quinta_linha'>
+                <button onclick="reset()" id='reset'>RESET</button>
+                <button onclick="igual()" id='igual'>=</button>
+            </div>
+        </div>
+    </div>
+    <script src='main.js'>
+    </script>
+</body>
+
+</html>

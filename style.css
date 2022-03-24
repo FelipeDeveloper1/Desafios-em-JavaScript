@@ -1,0 +1,244 @@
+body {
+    background-color: #3b4664;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    margin-right: 25%;
+    font-size: xx-large;
+}
+
+#numeros {
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    font-size: medium;
+    color: white;
+    float: left;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+
+#box {
+    width: 400px;
+    height: 98px;
+    margin-left: 35%;
+    border-radius: 8px;
+    background-color: #181f32;
+}
+
+#box1 {
+    clear: both;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 345px;
+    background-color: #252c46;
+    margin-left: 35%;
+    border-radius: 8px;
+}
+
+
+/* botôes */
+
+#sete {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#oito {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#nove {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#del {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: medium;
+    background-color: #647299;
+    color: white;
+}
+
+#quatro {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#cinco {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#seis {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#mais {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#um {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#dois {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#tres {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#menos {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#ponto {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#zero {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#divisao {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#multi {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #454851;
+}
+
+#reset {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 154px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: medium;
+    background-color: #647299;
+    color: #ffffff;
+}
+
+#igual {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 9%;
+    width: 140px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: medium;
+    color: #ffffff;
+    background-color: #d13f30;
+}
