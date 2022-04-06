@@ -1,0 +1,17 @@
+body {
+    background-color: #3B4664;
+}
+
+.container {
+    width: 420px;
+    height: 590px;
+    background-color: #3B4664;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+.visor {
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    height: 90px;
+    width: 100%;
+    background-color: #181F32;
+}
+
+.num {
+    margin-top: 5%;
+    margin-left: auto;
+    font-size: 35px;
+}
+
+.linha {
+    display: flex;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.numeros {
+    margin-top: 8px;
+    width: 100%;
+    background-color: #252D44;
+    border-radius: 10px;
+}
+
+.btn {
+    height: 53px;
+    width: 70px;
+    background-color: #EAE3DB;
+    border-radius: 8px;
+    margin: 8px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #2a3249;
+    transition: all 300ms;
+}
+
+.btn2 {
+    width: 144px;
+    cursor: pointer;
+}

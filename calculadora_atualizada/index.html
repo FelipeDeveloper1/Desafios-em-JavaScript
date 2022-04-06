@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes sociais</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calculadora.css">
+
+</head>
+
+<body class='body'>
+    <div class="container">
+        <div class="calculadora">
+            <div class="topo">
+                <h1> Calc </h1>
+            </div>
+            <div class="visor">
+                <p class='num'></p>
+
+            </div>
+            <div class="numeros">
+                <div class="linha ">
+                    <input type="button" value="7" onclick="inserir('7')" class="btn ">
+                    <input type="button" value="8" onclick="inserir('8')" class="btn ">
+                    <input type="button" value="9" onclick="inserir('9')" class="btn ">
+                    <input type="button" value="DEL" onclick="deleta()" class="btn ">
+                </div>
+                <div class="linha ">
+                    <input type="button" value="4" onclick="inserir('4')" class="btn ">
+                    <input type="button" value="5" onclick="inserir('5')" class="btn ">
+                    <input type="button" value="6" onclick="inserir('6')" class="btn ">
+                    <input type="button" value="+" onclick="calcular('+')" class="btn">
+                </div>
+                <div class="linha">
+                    <input type="button" value="1" onclick="inserir('1')" class="btn ">
+                    <input type="button" value="2" onclick="inserir('2')" class="btn ">
+                    <input type="button" value="3" onclick="inserir('3')" class="btn ">
+                    <input type="button" value="-" onclick="calcular('-')" class="btn ">
+                </div>
+                <div class="linha">
+                    <input type="button" value="." onclick="calcular('.')" class="btn">
+                    <input type="button" value="0" onclick="inserir('0')" class="btn ">
+                    <input type="button" value="/" onclick="calcular('/')" class="btn">
+                    <input type="button" value="X" onclick="calcular('*')" class="btn">
+                </div>
+                <div class="linha">
+                    <input type="button" value="RESET" onclick="limpar()" class="btn2 btn ">
+                    <input type="button" value="=" onclick="igual()" class="btn2 btn ">
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="code.js"></script>
+<script src="anime.js"></script>
+
+</html>
